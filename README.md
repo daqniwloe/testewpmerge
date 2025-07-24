@@ -33,7 +33,6 @@ docker-compose up -d
 
 bash
 docker exec -it reviiv-wordpress bash
-cd wp-content
 composer require htmlburger/wpemerge
 composer require htmlburger/carbon-fields
 
